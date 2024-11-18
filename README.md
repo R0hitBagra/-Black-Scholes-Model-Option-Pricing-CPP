@@ -9,29 +9,6 @@ This project contains a simple C++ implementation of the Black-Scholes model for
 - Calculates the implied volatility.
 - Determines the intrinsic value of the options.
 
-## Getting Started
-
-### Prerequisites
-
-- C++ compiler (e.g., g++, clang++)
-- Standard C++ Library
-
-### Compilation
-
-To compile the code, use the following command:
-
-```sh
-g++ -o option_pricing main.cpp -lm
-```
-
-### Running the Program
-
-After compiling the code, you can run the program using:
-
-```sh
-./option_pricing
-```
-
 ### Example Output
 
 The program calculates the option prices and Greeks for a sample set of input parameters and prints the results:
@@ -40,10 +17,6 @@ The program calculates the option prices and Greeks for a sample set of input pa
 European Call Option Price: 10.4506, dte: 365, delta: 0.6368, gamma: 0.0189, theta: -6.4157, vega: 37.5764, rho: 53.2325, implied volatility: 0.2000, intrinsic value: 0.0000
 European Put Option Price: 5.5735, dte: 365, delta: -0.3632, gamma: 0.0189, theta: -1.9332, vega: 37.5764, rho: -41.8905, implied volatility: 0.2000, intrinsic value: 0.0000
 ```
-
-## Code Structure
-
-- **main.cpp**: Contains the main implementation of the Black-Scholes model, option pricing functions, and the `main` function for execution.
 
 ### Key Functions
 
